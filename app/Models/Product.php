@@ -11,5 +11,5 @@ class Product extends Model
     use HasFactory;
     protected $fillable = ['id'=>'string','grosorBase', 'grosorPunta', 'tipo', 'material', 'forma'];
 
-    
+    public $incrementing = false;
 }
